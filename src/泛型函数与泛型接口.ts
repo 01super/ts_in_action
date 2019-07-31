@@ -2,7 +2,7 @@ function log(value: string): string {
   console.log(value);
   return value;
 }
-// 使上函数实现打印数组字符串
+// 使上函数实现打印字符串和数组字符串
 // 1、使用函数重载
 function log1(value: string): string;
 function log1(value: string[]): string[];
